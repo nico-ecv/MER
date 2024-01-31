@@ -1,0 +1,35 @@
+.feature_list {
+    padding: 7rem 0;
+}
+
+.feature_list-layout {
+    display: grid;
+    gap: 4rem;
+}
+
+.feature_list-item {
+    padding: 2rem 2rem;
+    background-color: var(--color-container);
+    text-align: center;
+    color: var(--color-black);
+}
+
+.feature-img-people {
+    height: 96px;
+    width: 96px;
+    margin-bottom: 1rem;
+    border-radius: 80px;
+}
+
+@media (min-width: 640px) {
+    .feature_list-layout {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+.feature_list-name {
+    font-size: 1.5rem;
+    font-family: "Proxima Nova Font", sans-serif;
+    padding-bottom: 1rem;
+}

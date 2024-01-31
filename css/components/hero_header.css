@@ -1,0 +1,41 @@
+.hero-header {
+    background-image:url(../../images/Background-heroheader-2.jpg);
+    background-size: cover;
+    background-position: center;    
+    height: 75vh;
+}
+
+.hero-header .container {
+    width: 100%;
+}
+
+.container-center {
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.flex-layout {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-header-card {
+    margin-bottom: 1rem;
+    padding: 1.25rem;
+    background-color: rgba(246, 246, 242, 0.6);
+}
+
+.hero-header-card p {
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+.hero-header-card {
+    width: 40%;
+    margin-left: auto;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+}

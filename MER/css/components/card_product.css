@@ -1,0 +1,27 @@
+.card_product figure {
+    position: relative;
+    padding-bottom: 120%;
+    overflow: hidden;
+}
+
+.card_product img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all .3s ease-in-out;
+}
+
+.card_product:hover img {
+    transform: scale(1.1);
+}
+
+.card_product-content {
+    padding-top: 1rem;
+}
+
+.card_product-price {
+    color: var(--color-black);
+    font-family: "Chronicle Display", sans-serif;
+}
